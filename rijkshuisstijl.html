@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rijkshuisstijl - Iconenset test bij Developer Open Hour #25</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- voor de "haves" -->
+    <script type="importmap">
+      {
+        "imports": {
+          "@rijkshuisstijl/icons/": "./proprietary/rijkshuisstijl-icons/"
+        }
+      }
+    </script>
+    <script type="module" src="my-icon-element.mjs"></script>
+  </head>
+  <body>
+    <my-icon src="@rijkshuisstijl/icons/printer.svg"></my-icon>
+  </body>
+</html>
